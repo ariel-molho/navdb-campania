@@ -1,0 +1,310 @@
+{
+  "campania": [
+    {
+      "id": 0,
+      "_id": {
+        "$oid": "5f85c542627fd21f9c18ae1f"
+      },
+      "Identificador": "5f85c542627fd21f9c18ae1f",
+      "Nombre": "Feed_especial_BR",
+      "Activa": true,
+      "RelacionXml": {
+        "Identificador": "5f85c3a5627fd21f9c18ae1a",
+        "Nombre": "Feed Especial BR",
+        "Proveedor": {
+          "Nombre": "Feed Especial BR",
+          "Identificador": "5f85c1fb627fd21f9c18ade2"
+        },
+        "Pais": {
+          "Nombre": "Brasil",
+          "Abrev": "BR",
+          "Color": "btn-warning",
+          "Orden": 2,
+          "Identificador": "",
+          "XmlUrl": "http://feeds.navent.com/iwbr/NavplatRE_2.xml",
+          "CronExpression": "0 5 * * *"
+        },
+        "ProveedorId": "5f85c1fb627fd21f9c18ade2",
+        "PaisId": "BR",
+        "Campos": [
+          {
+            "_id": {
+              "$oid": "5f85c3a5627fd21f9c18ae0c"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 1,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "listings",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5f85c3a5627fd21f9c18ae0d"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 2,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "ad",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5f85c3a5627fd21f9c18ae0e"
+            },
+            "IdCampoXmlMadre": 6,
+            "IdCampoProveedor": 3,
+            "NombreCampoXmlMadre": "id",
+            "NombreCampoProveedor": "id",
+            "CampoProveedorEsPadre": false,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          }
+        ]
+      },
+      "RelacionXmlId": "5f85c3a5627fd21f9c18ae1a",
+      "Filtros": "{\n  \"$and\": [\n    {\n      \"aviso.caracteristicasaPrincipales.tipoDePropiedad.idCategoriaTipoDePropiedad\": \"4\"\n    }\n  ]\n}",
+      "FiltrosXPath": "[(aviso.caracteristicasaPrincipales.tipoDePropiedad.idCategoriaTipoDePropiedad/text()='4')]",
+      "Resultados": 0,
+      "Filename": "Feed_especial_BR",
+      "NamespaceTag": "",
+      "CronExpression": "0 9 * * *",
+      "Xml": true,
+      "Zip": false,
+      "CsvDelimiter": "",
+      "ValorEntre": "",
+      "Particiones": 1,
+      "PartById": false,
+      "EncodingUTF8": true,
+      "EncodingISO8859": false,
+      "XmlVersion": "",
+      "Header": "",
+      "Footer": ""
+    },
+    {
+      "id": 1,
+      "_id": {
+        "$oid": "604294a16cdf9100d401f3ac"
+      },
+      "Identificador": "604294a16cdf9100d401f3ac",
+      "Nombre": "IW-RTB",
+      "Activa": true,
+      "RelacionXml": {
+        "Identificador": "60425f54000b231b044c569f",
+        "Nombre": "IW-RTB",
+        "Proveedor": {
+          "Nombre": "RTB House",
+          "Identificador": "5c4f650f6f88ce1270c7e532"
+        },
+        "Pais": {
+          "Nombre": "Brasil",
+          "Abrev": "Br",
+          "Color": "btn-success",
+          "Orden": 2,
+          "Identificador": "",
+          "XmlUrl": "http://feeds.navent.com/iwbr/NavplatRE_2.xml",
+          "CronExpression": "5 5 * * *"
+        },
+        "ProveedorId": "5c4f650f6f88ce1270c7e532",
+        "PaisId": "Br",
+        "Campos": [
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d2"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 13,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "feed",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d1"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 14,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "products",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d1"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 15,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "product",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          }
+        ]
+      },
+      "RelacionXmlId": "60425f54000b231b044c569f",
+      "Filtros": "{\n  \"$and\": [\n    {\n      \"aviso.precios.precio.monto\": {\n        \"$gt\": \"1\"\n      }\n    }\n  ]\n}",
+      "FiltrosXPath": "[(aviso.precios.precio.monto/text()>1)]",
+      "Resultados": 0,
+      "Filename": "IW-RTB",
+      "NamespaceTag": "",
+      "CronExpression": "0 7 * * *",
+      "Xml": true,
+      "Zip": true,
+      "CsvDelimiter": "",
+      "ValorEntre": "",
+      "Particiones": 99,
+      "PartById": false,
+      "EncodingUTF8": true,
+      "EncodingISO8859": false,
+      "XmlVersion": "",
+      "Header": "",
+      "Footer": ""
+    },
+    {
+      "id": 2,
+      "_id": {
+        "$oid": "604297016cdf9100d401f3af"
+      },
+      "Identificador": "604297016cdf9100d401f3af",
+      "Nombre": "ZP-RTB",
+      "Activa": false,
+      "RelacionXml": {
+        "Identificador": "6040ec18be4ee304fc24daf7",
+        "Nombre": "ZP-RTB",
+        "Proveedor": {
+          "Nombre": "RTB House",
+          "Identificador": "5c4f650f6f88ce1270c7e532"
+        },
+        "Pais": {
+          "Nombre": "Argentina",
+          "Abrev": "Ar",
+          "Color": "btn-success",
+          "Orden": 1,
+          "Identificador": "",
+          "XmlUrl": "http://feeds.navent.com/zpar/NavplatRE_1.xml",
+          "CronExpression": "31 4 * * *"
+        },
+        "ProveedorId": "5c4f650f6f88ce1270c7e532",
+        "PaisId": "Ar",
+        "Campos": [
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d1"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 13,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "feed",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d1"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 14,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "products",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          },
+          {
+            "_id": {
+              "$oid": "5cec9be0c1b25317c06a45d1"
+            },
+            "IdCampoXmlMadre": 0,
+            "IdCampoProveedor": 15,
+            "NombreCampoXmlMadre": "",
+            "NombreCampoProveedor": "product",
+            "CampoProveedorEsPadre": true,
+            "IgnoreCDATA": false,
+            "LetraCapital": false,
+            "SinEtiqueta": false,
+            "ValorPorDefecto": "",
+            "ValorFijo": "",
+            "MaxLength": 0,
+            "Concat": "",
+            "Replaces": []
+          }
+        ]
+      },
+      "RelacionXmlId": "6040ec18be4ee304fc24daf7",
+      "Filtros": "{\n  \"$and\": [\n    {\n      \"aviso.precios.precio.monto\": {\n        \"$gt\": \"1\"\n      }\n    }\n  ]\n}",
+      "FiltrosXPath": "[(aviso.precios.precio.monto/text()>1)]",
+      "Resultados": 0,
+      "Filename": "ZP-RTB",
+      "NamespaceTag": "",
+      "CronExpression": "30 6 * * *",
+      "Xml": true,
+      "Zip": true,
+      "CsvDelimiter": "",
+      "ValorEntre": "",
+      "Particiones": 99,
+      "PartById": false,
+      "EncodingUTF8": true,
+      "EncodingISO8859": false,
+      "XmlVersion": "",
+      "Header": "",
+      "Footer": ""
+    }
+  ]
+}
